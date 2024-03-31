@@ -1,0 +1,19 @@
+body{
+    /* background-color: #eee; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.35)), url('https://static.vecteezy.com/system/resources/thumbnails/008/191/708/small/human-blood-donate-and-heart-rate-on-white-background-free-vector.jpg');
+    background-size: cover; /* Cover the whole page */
+      background-position: center; 
+      /* height: 100vh; 
+      width: 100vw; */
+      min-height: 100vh;
+      background-color: rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+
+}
+footer {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+ }

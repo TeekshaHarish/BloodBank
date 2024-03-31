@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* General styles */
+body {
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    color: #333; /* Default text color */
+}
+
+header {
+    /* background-color: #d9534f; Red */
+    color: #d9534f;
+    color:  rgb(194, 7, 7);
+    text-align: center;
+    padding: 20px;
+    font-weight:800;
+}
+
+footer {
+    background-color: #fff; /* White */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #fff;
+    /* color:white/; White */
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 1.9rem;
+    color:  rgb(194, 7, 7); /* Red */
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #333; /* Default text color */
+    margin-bottom: 20px;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.feature {
+    width: 45%;
+    background-color:  rgb(194, 7, 7); /* Red */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature h2 {
+    color: #fff; /* White */
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #fff; /* White */
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff; /* White */
+    color: rgb(194, 7, 7); /* Red */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #eee; /* Light gray */
+}
+.heroConatiner{
+    height: 320px;
+    background-color: rgb(194, 7, 7);
+    color:white;
+}
+.herotext{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+
+.herotext h2{
+    font-size: 1.rem;
+    margin-bottom: 20px;
+
+}
+.herotext p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+
+}
+
+.heroImg{
+    max-height: 320px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
